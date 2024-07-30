@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+             overflow: hidden;
+         }  
+         nav ul {
+             display: flex;
+             justify-content: flex-end;
+             padding: 0;
+             margin: 0;
+             list-style-type: none;
+         }
+         nav ul li {
+             margin: 30px;
+             padding: 0;
+         }
+         nav ul li a {
+             color: rgb(17, 16, 16);
+             /* background-color: rgb(239, 239, 248);  */
+             padding: 0;
+             text-decoration: none;
+             transition: background-color 0.3s;
+         }
+        .bg-image {
+            /* The image used */
+            background-image: url("mango delight cream cake.webp");
+            
+            /* Add the blur effect */
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+            
+            /* Full height */
+            height: 100%; 
+            
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .bg-text {
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 25%;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .input-container input {
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+        .login-btn {
+            padding: 10px;
+            font-size: 18px;
+            background-color: #04AA6D;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .login-btn:hover {
+            background-color: #045f3d;
+        }
+        footer {
+            background-color: #aca4a4;
+            color: rgb(17, 16, 16);
+            text-align: center;
+         padding: 20px 0px 0px 0px; 
+            
+         width: 100%;  
+            bottom: 0px;
+        }
+      
+      
+       .type {
+            list-style-type: none;
+            display: flex;
+            gap: 50px;
+            background-color: rgb(240, 235, 235);
+            
+        }
+        div ul li{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+        <header>
+          <nav>
+            <ul>
+              <li><a href="index.html"><img src="img/hoome.png" alt="" width="20px"><b>Home</b></a></li>
+             <li><a href="flavour.html"><img src="img/flla.png" alt="" width="20px"><b>Flavour</b></a></li>
+             <li><a href="spl offer.html"><img src="img/spl offer.png" alt="" width="20px"><b>Spl Offer</b></a></li>
+             <li><a href="login.html"><img src="img/llogin.png" alt="" width="20px"><b>Login</b></a></li> 
+             
+           </ul>
+          </nav>
+        </header>
+
+
+    <div class="bg-image"></div>
+    <div class="bg-text">
+        <h2>Login</h2>
+        <div class="input-container">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button class="login-btn">Login</button>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy;2022 The Cake Shop.All Right Reserved.</p><br>
+    <div class="type">
+        <ul>
+            <li> POLICY INFO</li><br>
+            <li>Terms & Conditions</li><br>
+            <li>Terms of Use</li><br>
+            <li>Disclaimer</li>
+       
+        </ul>
+
+
+    <ul>
+        <li> ABOUT COMPANY</li><br>
+        <li> About Us</li><br>
+        <li> FNP Team</li><br>
+        <li> Careers</li><br>
+        <li> Testimonials</li><br>
+       
+       <li>  News Room</li>
+       
+    </ul>
+
+    <ul>
+        <li>FNP BUSINESS</li><br>
+        <li> Decoration Services</li><br>
+        <li> Corporate Service</li><br>
+        <li>Affiliate Program</li><br>
+        <li> Retails Stores</li><br>
+        <li> Franchise</li>
+    </ul>
+    <ul>
+        <li>NEED HELP?</li><br>
+        <li>Contact Us</li><br>
+        <li>FAQs</li>
+    </ul>
+    <ul>
+        <li>USEFUL LINKS</li><br>
+        <li>Quotes N Wishes</li><br>
+        <li>Flower Astrology</li><br>
+        <li>Article Hub</li><br>
+        <li> Care Guide</li><br>
+        <li>Blog</li>
+    </ul>
+</div>
+
+   
+  
+
+</footer>
+    
+</body>
+</html>
